@@ -27,7 +27,11 @@ npm run preview
 
 ## Supabase Setup
 - Create a new Supabase project.
-- In `src/supabaseClient.js`, replace placeholders with your Supabase URL and anon key.
+- Copy `.env.example` to `.env.local` and fill in your keys.
+	```powershell
+	Copy-Item .env.example .env.local
+	```
+- `src/supabaseClient.js` reads from `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
 - Follow `database/README.md` to create the `reviews` table and enable Realtime.
 
 ## Project Structure
