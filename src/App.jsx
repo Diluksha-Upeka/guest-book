@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   return (
     <div style={{padding: '2rem'}}>
-      <h1>Guest Book App</h1>
+      <h1>Review Wall</h1>
       <p>Welcome. Add components in <code>src/components</code> and pages in <code>src/pages</code>.</p>
     </div>
   )
